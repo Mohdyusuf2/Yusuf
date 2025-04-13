@@ -1,6 +1,7 @@
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-local window = Fluent : createWindow("Yusuf V2", {  
-    min_size = Vector2.new(470, 470), 
-    can_resize = false,
+local window = Fluent : createWindow({  
+    Title = "Yusuf v2 " 
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
 })
